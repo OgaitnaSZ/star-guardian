@@ -188,7 +188,6 @@ section.efectoCuadro:hover section::after{
     }
     .cuadros{
         position: initial;
-        transform: rotate(0);
         padding: 0;
         margin: 0.2em;
     }
