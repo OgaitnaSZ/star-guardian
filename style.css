@@ -1,5 +1,6 @@
 body{
-    background: url('https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt0060849db5c9144a/62bdda094673394f64680347/00_Header_SG2.jpg');
+    /* background: url('img/starGuardian-background.jpg'); */
+    background: url(img/fondo.png),linear-gradient(30deg,#662e91,#2e3897);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -181,6 +182,7 @@ section.efectoCuadro:hover section::after{
         font-size: 2em;
     }
     main{
+        height: auto;
         width: 100%;
         flex-direction: row;
         flex-wrap: wrap;
